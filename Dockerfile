@@ -42,7 +42,7 @@ RUN \
 
 # Proceed with the install.
     && chmod +x $MININET_INSTALLER \
-    && ./$MININET_INSTALLER -nfv \
+    && ./$MININET_INSTALLER -a \
 
 # Clean up source.
     && rm -rf /tmp/mininet \

@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM debian:8
 
 MAINTAINER Ozzy Johnson <docker@ozzy.io>
 
